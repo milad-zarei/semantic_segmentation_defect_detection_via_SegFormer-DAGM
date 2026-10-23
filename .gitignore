@@ -1,0 +1,58 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Datasets (large, download separately)
+DAGM*/
+data/
+datasets/
+*.zip
+
+# Checkpoints and trained models (large files)
+check_point_DAGM/
+DAGM_checkpoints/
+DAGM_save_final_mode/
+checkpoints/
+checkpoint_epoch_*.pth
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# Gradio temporary files
+.gradio/
+flagged/
+gradio_cached_examples/
+
+# Training logs and outputs
+logs/
+runs/
+wandb/
+outputs/
+*.log
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
